@@ -41,6 +41,15 @@
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    .court-hours-table-wrapper {
+        padding: 5px 5px;
+    }
+    .court-hours-table {
+      width: 100%;
+    }
+}
+
 tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
